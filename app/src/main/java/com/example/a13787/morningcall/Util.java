@@ -12,7 +12,6 @@ public class Util
     public static final String ACRA_REPORT_ADDRESS = "http://developer.miivii.com:5984/acra-bugreport/_design/acra-storage/_update/report";
     public static final String ACRA_REPORT_LOGIN = "bugreport";
     public static final String ACRA_REPORT_PASSWORD = "miiviibugreport";
-    // instead by your own machine IP address which you will connect to.
     public static final String ROS_MASTER_URI = "http://192.168.31.213:11311/";
     public static String getLocalIpAddress()
     {
