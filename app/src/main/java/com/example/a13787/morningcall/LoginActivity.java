@@ -43,6 +43,11 @@ public class LoginActivity extends BaseActivity
             if (password.equals(result))
             {
                 Toast.makeText(LoginActivity.this,"Accepted",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent("com.example.a13787.morningcall.FORCE_OFFLINE");
+                setUserEmail(email);
+                intent.putExtra("Email", userEmail);
+                intent.putExtra("IP", userIP);
+                sendBroadcast(intent);
                 //into main activity
             }
             else
