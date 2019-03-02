@@ -13,10 +13,12 @@ import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class RegisterActivity extends BaseActivity {
+public class RegisterActivity extends BaseActivity
+{
     private MyDatabaseHelper dbHelp = new MyDatabaseHelper(this,"Userinfo.db",null,4);  //update on 2019.3.1
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         //隐藏状态栏
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -41,10 +43,11 @@ public class RegisterActivity extends BaseActivity {
         final EditText schoolName = (EditText) findViewById(R.id.register_schoolname);
         final EditText studid = (EditText) findViewById(R.id.register_studid);
         Button btn_register = (Button) findViewById(R.id.btn_register);
-        btn_register.setOnClickListener(new View.OnClickListener() {
+        btn_register.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v) {
-
+            public void onClick(View v)
+            {
                 String password1 = password.getText().toString();
                 String password2 = check.getText().toString();
                 if (!password1.equals(password2))

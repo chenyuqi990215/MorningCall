@@ -10,10 +10,6 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-/**
- * Created by 13787 on 2019/2/28.
- */
-
 public abstract class BaseActivity extends AppCompatActivity
 {
     private ForceOffLineReceiver receiver;
@@ -29,7 +25,6 @@ public abstract class BaseActivity extends AppCompatActivity
     {
         this.userIP=userIP;
     }
-
     void setEnableForceOffLineReceiver(boolean enable)
     {
         this.enableForceOffLineReceiver = enable;
@@ -43,13 +38,8 @@ public abstract class BaseActivity extends AppCompatActivity
         setUserIP(ip);
         Log.d("IpAddress", ip);
         ActivityCollector.addActivity(this);
-        //设置布局
         setContentView(initLayout());
-        //初始化控件
         initView();
-        //设置数据
-        //initData();
-
     }
     @Override
     protected void onResume()

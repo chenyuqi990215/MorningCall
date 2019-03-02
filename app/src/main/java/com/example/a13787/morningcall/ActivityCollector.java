@@ -5,10 +5,6 @@ import android.app.Activity;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by 13787 on 2019/2/28.
- */
-
 public class ActivityCollector
 {
     public static List<Activity> activities = new ArrayList<>();
