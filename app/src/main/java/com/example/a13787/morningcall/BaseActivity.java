@@ -15,8 +15,8 @@ public abstract class BaseActivity extends AppCompatActivity
     private ForceOffLineReceiver receiver;
     boolean enableForceOffLineReceiver = false;
     boolean enableForceOffLineReceiverTest = true;
-    String userEmail;
-    String userIP;
+    String userEmail="admin@stu.ecnu.edu.cn";
+    String userIP="127.0.0.1";
     void setUserEmail(String userEmail)
     {
         this.userEmail = userEmail;
