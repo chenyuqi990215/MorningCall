@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sss_1024"
+    android:background="@drawable/background1"
     android:orientation="vertical">
 
     <ScrollView
@@ -27,7 +27,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:background="@drawable/timg">
@@ -62,7 +62,7 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="80dp"
                 android:layout_margin="20dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -96,7 +96,7 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:layout_margin="20dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -134,7 +134,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:background="@drawable/timg">
@@ -170,7 +170,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:background="@drawable/timg">
@@ -206,7 +206,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:background="@drawable/timg">
@@ -242,7 +242,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:background="@drawable/timg">
@@ -264,7 +264,7 @@
                         android:id="@+id/register_schoolname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="username"
+                        android:hint="school name"
                         android:imeActionId="@+id/login"
                         android:imeActionLabel="@string/action_sign_in_short"
                         android:imeOptions="actionUnspecified"
@@ -278,7 +278,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_margin="20dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:background="@drawable/timg">
