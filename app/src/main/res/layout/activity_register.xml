@@ -27,7 +27,9 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -43,7 +45,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -62,10 +64,11 @@
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:alpha="0.7"
@@ -73,14 +76,14 @@
                 <TextView
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Sex : "
                     android:textSize="20dp"
                     android:textColor="#0a0000" />
                 <RadioGroup
                     android:id="@+id/register_sex"
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2.6"
                     >
@@ -100,7 +103,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
                 android:alpha="0.7"
@@ -115,7 +120,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -137,7 +142,9 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -153,7 +160,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -174,7 +181,9 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -190,7 +199,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -211,7 +220,9 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -227,7 +238,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -248,7 +259,9 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -264,7 +277,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -285,7 +298,9 @@
             <LinearLayout
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
                 android:layout_height="60dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:orientation="horizontal"
@@ -301,7 +316,7 @@
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -320,17 +335,20 @@
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
             <Button
-                android:id="@+id/btn_register"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/email_sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:background="#cf9623"
+                android:background="@drawable/shape_point3"
                 android:alpha="0.7"
-                android:layout_marginBottom="50dp"
                 android:layout_marginTop="16dp"
-                android:text="register"
+                android:text="login"
+                android:textSize="20dp"
+                android:textAllCaps="false"
                 android:textStyle="bold"
-                android:elevation="0dp" /> />
+                android:elevation="0dp" />
 
         </LinearLayout>
     </ScrollView>
