@@ -349,7 +349,6 @@
                 android:textAllCaps="false"
                 android:textStyle="bold"
                 android:elevation="0dp" />
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
