@@ -42,7 +42,7 @@ public class RegisterActivity extends BaseActivity
         final EditText tel = (EditText) findViewById(R.id.register_tel);
         final EditText schoolName = (EditText) findViewById(R.id.register_schoolname);
         final EditText studid = (EditText) findViewById(R.id.register_studid);
-        Button btn_register = (Button) findViewById(R.id.btn_register);
+        Button btn_register = (Button) findViewById(R.id.email_sign_in_button);
         btn_register.setOnClickListener(new View.OnClickListener()
         {
             @Override
