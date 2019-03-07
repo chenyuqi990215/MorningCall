@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
     <solid android:color="#96c7db" />
     <size
         android:width="30dp"
-        android:height="10dp" />
+        android:height="30dp" />
     <!-- 边角圆弧的半径 -->
-    <corners android:radius="10dp" />
+    <corners android:radius="30dp" />
 </shape>
