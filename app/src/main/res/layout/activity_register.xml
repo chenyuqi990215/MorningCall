@@ -36,17 +36,17 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Username : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
                     android:layout_height="wrap_content"
                     >
                     <EditText
@@ -74,18 +74,20 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="22dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Sex : "
                     android:textSize="20dp"
                     android:textColor="#0a0000" />
                 <RadioGroup
                     android:id="@+id/register_sex"
-                    android:layout_width="170dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2.6"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
                     >
                     <RadioButton
                         android:id="@+id/mainRegisterRdBtnFemale"
@@ -111,17 +113,17 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Email : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
                     android:layout_height="wrap_content"
                     >
                     <EditText
@@ -151,17 +153,17 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Phone : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
                     android:layout_height="wrap_content"
                     >
                     <EditText
@@ -190,17 +192,17 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Password : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
                     android:layout_height="wrap_content"
                     >
                     <EditText
@@ -229,16 +231,16 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Confirm : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
+                    android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -268,17 +270,17 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="School : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
                     android:layout_height="wrap_content"
                     >
                     <EditText
@@ -307,16 +309,16 @@
                 android:alpha="0.7"
                 android:background="@drawable/time">
                 <TextView
-                    android:layout_width="130dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:text="Student id : "
                     android:textSize="20dp"
                     android:textColor="#0a0000"
                     />
                 <android.support.design.widget.TextInputLayout
-                    android:layout_width="170dp"
+                    android:layout_width="match_parent"
                     android:layout_marginRight="30dp"
                     android:layout_height="wrap_content"
                     >
@@ -340,12 +342,12 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginRight="70dp"
                 android:layout_marginBottom="50dp"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:background="@drawable/shape_point3"
+                android:background="@drawable/button_backgorund"
                 android:alpha="0.7"
                 android:layout_marginTop="16dp"
-                android:text="login"
+                android:text="register"
                 android:textSize="20dp"
                 android:textAllCaps="false"
                 android:textStyle="bold"
