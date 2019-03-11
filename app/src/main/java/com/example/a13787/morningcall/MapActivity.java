@@ -223,6 +223,21 @@ public class MapActivity extends BaseActivity
         mydataBase.setEndTime("2019.3.9 8:00");
         mydataBase.setSex("all");
         updateOverlay(mydataBase);
+        mydataBase = new MyDataBase();
+        mydataBase.setLongtitude(121.40449750967011);
+        mydataBase.setLatitude(31.231446081244303);
+        mydataBase.setUsername("cyq");
+        mydataBase.setSchoolName("ECNU");
+        mydataBase.setDepartment("SE");
+        mydataBase.setClickable(true);
+        mydataBase.setType("enjoyment");
+        mydataBase.setTitle("PlayUNO");
+        mydataBase.setLocation("ecnu Fifth dorm");
+        mydataBase.setInfo("Let's play UNO.");
+        mydataBase.setStartTime("2019.3.9 20:00");
+        mydataBase.setEndTime("2019.3.9 22:00");
+        mydataBase.setSex("all");
+        updateOverlay(mydataBase);
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
