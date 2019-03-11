@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.baidu.mapapi.map.MapView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/bmapView"
+        android:clickable="true"
+        android:layout_weight="0.03" />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layout_infotop"
+        android:background="@drawable/background_top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-550dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="90dp">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="Time: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:id="@+id/info_time"
+            />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/info_username"
+            android:textSize="15sp"
+            android:text="name: " />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#000000"
+            android:text="department: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:id="@+id/info_department" />
+    </LinearLayout>
+</LinearLayout>

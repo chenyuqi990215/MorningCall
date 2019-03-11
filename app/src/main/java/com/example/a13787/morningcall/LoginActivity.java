@@ -50,6 +50,8 @@ public class LoginActivity extends BaseActivity
                 intent.putExtra("IP", userIP);
                 sendBroadcast(intent);
                 //into main activity
+                Intent intoMain = new Intent(LoginActivity.this,MapActivity.class);
+                startActivity(intoMain);
             }
             else
             {

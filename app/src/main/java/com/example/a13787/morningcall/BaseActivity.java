@@ -10,6 +10,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.baidu.mapapi.SDKInitializer;
+
 public abstract class BaseActivity extends AppCompatActivity
 {
     private ForceOffLineReceiver receiver;
