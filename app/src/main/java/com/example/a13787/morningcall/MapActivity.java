@@ -4,12 +4,8 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
-import android.location.Location;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -43,7 +39,7 @@ import java.util.List;
 public class MapActivity extends BaseActivity
 {
     private Marker markerOnMap = null;
-    private myDataBase eventOnMap = null;
+    private MyDataBase eventOnMap = null;
     public LocationClient mLocationClient;
     private MapView mapView;
     private BaiduMap baiduMap;
@@ -96,7 +92,7 @@ public class MapActivity extends BaseActivity
                 @Override
                 public boolean onMarkerClick(Marker marker)
                 {
-                    final myDataBase mydataBase = (myDataBase) marker.getExtraInfo().get("DataBase");
+                    final MyDataBase mydataBase = (MyDataBase) marker.getExtraInfo().get("DataBase");
                     if (mydataBase.isClickable()==false)
                         return true;
                     if (markerOnMap!=null)
@@ -118,7 +114,7 @@ public class MapActivity extends BaseActivity
                     if (mydataBase.getType().equals("study"))
                     {
                         BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_study_mark);
-                        myDataBase temp  = new myDataBase();
+                        MyDataBase temp  = new MyDataBase();
                         temp.setClickable(false);
                         Bundle bundle = new Bundle();
                         bundle.putSerializable("DataBase",temp);
@@ -129,7 +125,7 @@ public class MapActivity extends BaseActivity
                     else if (mydataBase.getType().equals("food"))
                     {
                         BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_food_mark);
-                        myDataBase temp  = new myDataBase();
+                        MyDataBase temp  = new MyDataBase();
                         temp.setClickable(false);
                         Bundle bundle = new Bundle();
                         bundle.putSerializable("DataBase",temp);
@@ -140,7 +136,7 @@ public class MapActivity extends BaseActivity
                     else if (mydataBase.getType().equals("sport"))
                     {
                         BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_sport_mark);
-                        myDataBase temp  = new myDataBase();
+                        MyDataBase temp  = new MyDataBase();
                         temp.setClickable(false);
                         Bundle bundle = new Bundle();
                         bundle.putSerializable("DataBase",temp);
@@ -151,7 +147,7 @@ public class MapActivity extends BaseActivity
                     else
                     {
                         BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_enjoyment_mark);
-                        myDataBase temp  = new myDataBase();
+                        MyDataBase temp  = new MyDataBase();
                         temp.setClickable(false);
                         Bundle bundle = new Bundle();
                         bundle.putSerializable("DataBase",temp);
@@ -182,7 +178,7 @@ public class MapActivity extends BaseActivity
     @Override
     protected void initData()
     {
-        myDataBase mydataBase= new myDataBase();
+        MyDataBase mydataBase= new MyDataBase();
         mydataBase.setLongtitude(121.40658068154808);
         mydataBase.setLatitude(31.228386048773345);
         mydataBase.setUsername("cyq");
@@ -197,7 +193,7 @@ public class MapActivity extends BaseActivity
         mydataBase.setEndTime("2019.3.9 17:00");
         mydataBase.setSex("all");
         updateOverlay(mydataBase);
-        mydataBase= new myDataBase();
+        mydataBase= new MyDataBase();
         mydataBase.setLongtitude(121.40440721093566);
         mydataBase.setLatitude(31.228679705989208);
         mydataBase.setUsername("cyq");
@@ -212,7 +208,7 @@ public class MapActivity extends BaseActivity
         mydataBase.setEndTime("2019.3.9 19:00");
         mydataBase.setSex("all");
         updateOverlay(mydataBase);
-        mydataBase= new myDataBase();
+        mydataBase= new MyDataBase();
         mydataBase.setLongtitude(121.40319750967011);
         mydataBase.setLatitude(31.230346081244303);
         mydataBase.setUsername("cyq");
@@ -236,11 +232,11 @@ public class MapActivity extends BaseActivity
             case 1:
                 if (resultCode==RESULT_OK)
                 {
-                    updateOverlay((myDataBase) data.getSerializableExtra("DataBase"));
+                    updateOverlay((MyDataBase) data.getSerializableExtra("DataBase"));
                 }
         }
     }
-    private void updateOverlay(myDataBase mydataBase)
+    private void updateOverlay(MyDataBase mydataBase)
     {
         LatLng point = new LatLng(mydataBase.getLatitude(), mydataBase.getLongtitude());
         //构建Marker图标
