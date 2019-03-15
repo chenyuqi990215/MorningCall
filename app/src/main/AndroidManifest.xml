@@ -25,7 +25,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="Gu1tms3Eeg94lOzRc60Wu76QCb2QvSMk" />
+            android:value="UV67V2V6gNGRzqPiM9vwzaGveDbdgxRx" />
 
         <activity
             android:name=".GuideActivity"
@@ -36,6 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name="com.baidu.location.f" android:enabled="true"
+            android:process=":remote">
+        </service>
         <activity android:name=".RegisterActivity" ></activity>
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".MapActivity"></activity>
